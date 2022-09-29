@@ -1,0 +1,23 @@
+body{
+    background-color: #DDFFD6;
+}
+
+div{
+    align-items: center;
+    width: 950px;
+    height: 950px;
+}
+
+button{
+    background-color: #E3E997;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}
+
+.inpu{
+    background-color: #E6D6FF;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}

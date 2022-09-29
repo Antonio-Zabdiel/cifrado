@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./../style.css">
+        <title>Ejemplo de Cifrado Cesar</title>
+    </head>
+    <body>
+        <p>
+        Este es un ejemplo del cifrado Cesar así bien kawwai, ahi le 
+        ponen estilo
+        </p>
+
+        <br>
+
+        <p>ingrese el numero de posiciones del cifrado</p>
+        <input type="number" id="numer"> 
+
+        <br><br>
+
+        <p>ingrese texto a codificar y/o decodificar</p>
+        <textarea id="cadena" cols="30" rows="10">
+            
+        </textarea>
+        
+        <br>
+        <p>
+            <input type="button" class="inpu" value="Cifrar" onclick="cifrar();">
+            <input type="button" class="inpu" value="Descifrar" onclick="descifrar();">
+            <a href="./../index.html">
+                <button>regresar</button>
+            </a>
+        </p>
+
+
+        <div id="resultado">
+
+        </div>
+        <script src="./js/cesar.js"></script>
+    </body>
+</html>
